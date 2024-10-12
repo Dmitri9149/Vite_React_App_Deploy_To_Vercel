@@ -1,5 +1,5 @@
 # initial code from https://ncodedsolutions.com/en/articles/automate-your-deployments-using-ci-cd-pipeline-with-vercel-and-git-hub-actions
-name: Vercel Preview Deployment
+name: Vercel Preview Deployment with Robot Tests Added
 env:
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
   VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
