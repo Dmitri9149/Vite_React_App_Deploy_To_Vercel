@@ -23,11 +23,13 @@ jobs:
         run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
 
 #     ------------------------------------------
-      - name: Install ESLint 
-        run: npm init @eslint/config@latest
+#      - name: Install ESLint 
+#        run: npm init @eslint/config@latest
 
-      - name: Check style
-        run: npm run lint
+      - name: Install and Check style
+        run: |
+          npm ci 
+          npm run lint
 #     ------------------------------------------
         
       - name: Build Project Artifacts
