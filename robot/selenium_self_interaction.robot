@@ -10,7 +10,7 @@ Valid Login
     Set Selenium Implicit Wait    5
     Close Browser
 
-#   to be running https://vite-to-vercel.vercel.app/
+#  to be running https://vite-to-vercel.vercel.app/
 Valid Login to Own App 
     Open Browser     https://vite-to-vercel.vercel.app/     headlesschrome
     Maximize Browser Window
