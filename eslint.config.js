@@ -21,8 +21,7 @@ export default [
     plugins: {
       react,
       'react-hooks': reactHooks,
-      'react-refresh': reactRefresh,
-      'react/no-unescaped-entities': 'off',
+      'react-refresh': reactRefresh
     },
     rules: {
       ...js.configs.recommended.rules,
